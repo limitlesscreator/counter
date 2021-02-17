@@ -1,0 +1,12 @@
+body{
+    background: #323e5f;
+}
+.mainBlock{
+    height: 500px;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
