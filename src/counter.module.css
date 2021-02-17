@@ -2,11 +2,51 @@ body{
     background: #323e5f;
 }
 .mainBlock{
-    height: 500px;
-    font-size: 100px;
-    color: white;
-    text-transform: uppercase;
+    min-height: 100px;
+    width: 750px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 4px #87ffe6;
+}
+.numberBlock{
+    height: 250px;
+    background: #87ffe6;
+    border-radius: 10px;
+    font-size: 150px;
+    color: #ff0000;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.blockBottoms{
+    font-size: 80px;
+    border: solid 5px #87ffe6;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.inc{
+    padding: 0px 20px;
+    background: #87ffe6;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+}
+
+.reset{
+    padding: 0px 20px;
+    background: #87ffe6;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
 }
