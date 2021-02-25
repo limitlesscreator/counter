@@ -1,11 +1,21 @@
 import s from './counter.module.css'
-export function Counter(){
-    return(
+import {useState} from "react";
+import {TypeOfProps} from "./App";
+
+
+export function Counter(props: TypeOfProps) {
+
+
+    return (
         <div className={s.mainBlock}>
-            <div className={s.numberBlock}>5</div>
+            <div className={s.numberBlock}><span className={props.value === 5 ? s.value : ''}>{props.value}</span></div>
             <div className={s.blockBottoms}>
-                <div className={s.inc}>incr</div>
-                <div className={s.reset}>reset</div>
+                <button disabled={props.value === 5} className={props.value === 5 ? s.disableCursor : s.buttons}
+                        onClick={props.CounterInc}>incr
+                </button>
+                <button className={s.buttons}
+                        onClick={props.ResetCounter}>reset
+                </button>
             </div>
         </div>
     )

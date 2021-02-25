@@ -1,7 +1,8 @@
-body{
+body {
     background: #323e5f;
 }
-.mainBlock{
+
+.mainBlock {
     min-height: 100px;
     width: 750px;
     margin: 50px auto;
@@ -9,18 +10,19 @@ body{
     border-radius: 10px;
     border: solid 4px #87ffe6;
 }
-.numberBlock{
+
+.numberBlock {
     height: 250px;
     background: #87ffe6;
     border-radius: 10px;
     font-size: 150px;
-    color: #ff0000;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.blockBottoms{
+.blockBottoms {
     font-size: 80px;
     border: solid 5px #87ffe6;
     border-radius: 10px;
@@ -30,23 +32,43 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.inc{
-    padding: 0px 20px;
+
+.buttons {
+    padding: 20px 30px;
     background: #87ffe6;
     border-radius: 10px;
     display: flex;
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
-
+    font-size: 50px;
+    border: #447e73 solid 3px;
 }
 
-.reset{
-    padding: 0px 20px;
+.buttons:focus, active {
+    outline: none;
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+
+.disableCursor {
+    padding: 20px 30px;
     background: #87ffe6;
     border-radius: 10px;
     display: flex;
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
+    font-size: 50px;
+    border: #447e73 solid 3px;
+}
+
+.disableCursor:hover {
+    cursor: no-drop;
+}
+
+.value {
+    color: #ff0000;
 }
