@@ -70,6 +70,7 @@ body {
 }
 
 .value {
+    font-size: 150px;
     color: #ff0000;
 }
 
@@ -111,4 +112,18 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+}
+
+.enterValue{
+    font-size: 35px;
+}
+
+.inputStyle{
+    height: 30px;
+    width: 150px;
+    display: block;
+    margin-right: 20px;
+    font-size: 20px;
+    background: #fd8a9f;
+    border: solid red 2px
 }
